@@ -1,14 +1,20 @@
 body {
 	margin:0;
 	padding: 0;
+	font-family:'Didact Gothic', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 40px;
 }
 
 .box-1 {
 	margin: 50px auto;
 	width: 200px;
 	height: 125px;
-	background: rgb(179, 179, 238);
-	box-shadow: inset 0 -6px 0 rgb(121, 121, 180);
+	background: rgb(98, 126, 156);
+	box-shadow: inset 0 -6px 0 rgb(65, 79, 104);
 	border-radius: 6px;
 	-webkit-transition: all 0.1s ease;
 }
@@ -16,7 +22,7 @@ body {
 .box-1:hover {
 	margin-top: 53px;
 	height: 122px;
-	box-shadow: inset 0 -3px 0 rgb(121, 121, 180);
+	box-shadow: inset 0 -3px 0 rgb(65, 79, 104);
 	-webkit-transform: rotate(18deg);
 }
 
@@ -24,7 +30,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: rgb(179, 179, 238);
+	background: rgb(65, 79, 104);
 	-webkit-transition: all 0.6s ease;
 
 }
@@ -38,23 +44,23 @@ body {
 .box-3 {
 	width: 200px;
 	height: 200px;
-	background-color: blue;
+	background-color: rgb(110, 156, 185);
 	margin: 50px auto;
     transition: background-color 0.5s ease;
 }
 
 .box-3:hover {
-  	background-color: yellow;
+  	background-color:rgb(242, 185, 88);
 }
 
 .box-4 {
 	width: 200px;
 	height: 200px;
-    background: green;
+    background: rgb(60, 89, 120);
     margin: 50px auto;
     border-style: solid;
 	border-width: 3px;
-	border-color: red;
+	border-color: rgb(19, 170, 225);
 	-webkit-transition: border-width: 2s ease;
 }
 
@@ -66,7 +72,7 @@ body {
 .box-5 {
 	width: 200px;
 	height: 200px;
-    background-color: rgb(35, 35, 35);
+    background-color: rgb(170, 188, 211);
     margin: 50px auto;
 }
 
@@ -80,12 +86,15 @@ body {
 	height: 200px;
 	margin: 50px auto;
 	font-size: 70px;
-	background: yellow;
+	color: #fff;
+	text-align: center;
+	line-height: 200px;
+	background: rgb(242, 185, 88);
 	-webkit-transition: all 0.6s ease;
 
 }
 
-.box-6:hover {
+.box-6:active {
 	margin-top: 20px;
 	font-size: 20px;
 }
@@ -95,7 +104,7 @@ body {
 	height: 200px;
 	margin: 50px auto;
 	font-size: 70px;
-	background: blue;
+	background: rgb(110, 156, 185);
 	-webkit-transition: all 0.6s ease;
 }
 
@@ -109,7 +118,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: red;
+	background: rgb(65, 79, 104);
 	-webkit-transition: all 0.6s ease;
 }
 
@@ -122,8 +131,11 @@ body {
 	height: 200px;
 	margin: 50px auto;
 	font-size: 70px;
+	line-height: 200px;
 	font-weight: 200;
-	background: green;
+	text-align: center;
+	color: #fff;
+	background: rgb(19, 170, 225);
 	-webkit-transition: all 0.6s ease;
 }
 
@@ -135,7 +147,7 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: black;
+	background: rgb(110, 156, 185);
 	-webkit-transition: all 5s ease;
 }
 
@@ -147,25 +159,25 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: green;
+	background: rgb(98, 126, 156);
 	-webkit-transition: all 5s ease;
 }
 
 .box-11:hover {
 	width: 10px;
 	height: 10px;
-	background: red;
+	background: rgb(242, 185, 88);
 }
 
 .box-12 {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: blue;
+	background: rgb(65, 79, 104);
 	-webkit-transition: all 5s ease;
 }
 
-.box-12:hover {
+.box-12:active {
 	border-radius: 200px;
 	height: 400px;
 }
@@ -174,12 +186,12 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: red;
+	background: rgb(98, 126, 156);
 	-webkit-transition: all .5s ease;
 }
 
 .box-13:hover {
-	background: yellow;
+	background: rgb(19, 170, 225);
 	padding-right: 10px;
 	height: 100px;
 }
@@ -188,13 +200,13 @@ body {
 	width: 200px;
 	height: 200px;
 	margin: 50px auto;
-	background: green;
-	box-shadow: 2px 2px 1px black;
+	background: rgb(170, 188, 211);
+	box-shadow: 1px 1px 5px black;
 	-webkit-transition: all .5s ease;
 }
 
 .box-14:hover {
-	box-shadow: 10px 10px 10px black;
+	box-shadow: 3px 3px 5px black;
 }
 
 .box-15 {
@@ -205,9 +217,9 @@ body {
 	-webkit-transition: all .5s ease;
 }
 
-.box-15:hover {
+.box-15:active {
 	width: 800px;
-	background: green;
+	background: rgb(242, 185, 88);
 }
 
 
